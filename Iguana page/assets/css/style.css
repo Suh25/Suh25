@@ -1,0 +1,97 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300 !important;
+}
+
+body {
+    font-size: 16px;
+}
+
+strong {
+    font-weight: 500 !important;
+}
+
+header{
+    background-image: url("../img/bg-header.jpg");
+    background-position-y: 100px;
+    background-color: #000000;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.title {
+    padding: 5px 0;
+    background-color: #000000;
+}
+
+.title h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.description {
+    display: flow-root;
+    padding: 3rem;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.description img {
+    float: right;
+    padding: 4rem;
+}
+
+.description div {
+    padding: 4rem;
+    margin-top: 10rem;
+    font-size: 1.3rem;
+}
+
+.caracteristicas {
+    background-color: #1e1a13;
+    color: #ffffff;
+    text-align: center;
+    padding: 4rem 6rem;
+}
+
+.caracteristicas h2 {
+    margin-bottom: 3rem;
+    font-size: 5rem;
+}
+
+.caracteristicas i{
+    font-size: 6rem;
+}
+
+.caracteristicas p {
+    font-size: 2rem;
+}
+
+.caracteristicas div {
+    width: 33%;
+    display: inline-block;
+}
+
+.gallery {
+    padding: 3rem;
+    background-color: #000000;
+    display: flow-root;
+}
+
+.gallery img {
+    float: left;
+    width: 500px;
+    height: 300px;
+    padding: 1rem;
+}
+
+footer {
+    background-color: #1e1a13;
+    color: #ffffff;
+    font-size: 2rem;
+    padding: 5px 0;
+    text-align: center;
+}
